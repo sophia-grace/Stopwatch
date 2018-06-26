@@ -1,0 +1,172 @@
+/*
+    File: stylesheet1.css
+    Purpose: Support the Stopwatch 1 interface.
+    Author: Sophia Trump
+    Date: 25 February 2018
+*/
+
+
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 1vw;
+    margin: 0px;
+}
+
+
+/*THE STOPWATCH*/
+
+.clockSection {    
+    margin: 0;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    padding-left: 18.5vw;
+    padding-right: 18.5vw;
+    background-color: white;
+    text-align:center;
+}
+
+
+.clock {
+  font-family: "Arial", sans-serif;
+  font-size: 15vw;
+  margin: 0;
+  border-width: .4vw;
+  border-color: black; 
+  border-style: solid; 
+  transition: all 0.5s ease-out;
+}
+
+.clock:hover {
+    font-size: 15.5vw;
+}
+
+
+/*---------------------------------------------------------------------------------------*/
+
+
+/*THE BUTTONS*/
+
+.buttonSection {
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 4vw;
+    padding-left:18.5vw;
+    padding-right: 15.5vw;
+}
+    
+.button {
+    background: light-grey;
+    font-size: 3vw;
+    border: solid .4vw black;
+    color: black;   
+    cursor: pointer; 
+    padding: .99vw;  
+    margin-left: .7vw;
+    margin-right: .7vw;
+}
+
+#button-start {
+    background-color: lightgreen;
+    margin-left: 0;
+    transition: all 0.5s ease;
+}
+
+#button-start:hover{    
+    background: white;
+    font-size: 3.5vw;
+}
+            
+#button-stop {
+    background-color: lightcoral;
+    transition: all 0.5s ease-out;
+}
+
+#button-stop:hover{
+    background: white;
+    font-size: 3.5vw;
+}
+            
+#button-reset {
+    background-color: #ffff4d;
+    transition: all 0.5s ease-out;
+}
+
+#button-reset:hover{
+    background: white;
+    font-size: 3.5vw;
+}
+
+#button-lap {
+    background-color: lightblue;
+    transition: all 0.5s ease-out;
+}
+
+#button-lap:hover{
+    background: white;
+    font-size: 3.5vw;
+}
+
+#button-clearlaps {
+    margin-right: 0;
+    transition: all 0.5s ease-out;
+}
+
+
+#button-clearlaps:hover{
+    background: white;   
+    font-size: 3.5vw;
+}
+
+/*Remove focus lines*/
+input:focus, textarea:focus {
+    outline: none;
+}
+
+/*---------------------------------------------------------------------------------------*/
+
+/*THE LAPS*/
+
+.lapsSection {
+    font-family: "Arial", sans-serif;
+    font-size: 3.569vw;  
+    text-align: center;
+    background-color: lightblue;
+    border: solid .4vw black;
+    margin-left: 18.5vw;
+    margin-right: 18.5vw;
+    transition: all 0.5s ease;
+}
+
+.lapsSection:hover{
+    background-color: white;
+    font-size: 4.069vw;
+}
+
+.lapsTitle {
+    text-align: center;
+    border-bottom: solid .4vw black;
+    padding: .99vw;    
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*Remove focus lines*/
+input:focus, textarea:focus {
+    outline: none;
+}
+
+.laps {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+/* Remove bullets in ul */
+ul {
+  list-style-type: none;
+}
+
+
+
+
+

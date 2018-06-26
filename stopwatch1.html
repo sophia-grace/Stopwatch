@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+
+<!  
+    File: badhtml.html
+    Purpose: Stopwatch interface 1.
+    Author: Sophia Trump
+    Date: 25 February 2018
+>
+
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="stylesheet1.css">
+        <script type="text/javascript" src="stopwatch%20logic.js"></script>
+        <meta charset="utf-8"> 
+        <meta name="description" content="Stopwatch 1.">     
+        <title>Stopwatch 1</title>        
+    </head>
+    
+    
+<!------------------------------------------------------------------------------------------------->    
+        
+        <body>
+        <!THE STOPWATCH>
+            <div class="clockSection">    
+                <p class = "clock"; title = "Stopwatch"><span id = "minutes">00</span><span id = "colon">:</span><span id="seconds">00</span><span id = "colon">:</span><span id="tens">00</span></p>
+            </div> 
+            
+            
+        <!THE BUTTONS>
+            <div class= "buttonSection">
+                <button class = "button"; id="button-start"; title = "Start (begin the stopwatch)">Start</button>
+                <button class = "button"; id="button-reset"; title="Reset (set the current time to 0)">Reset</button>
+                <button class = "button"; id="button-stop"; title = "Stop (hold the current stopwatch time stable)">Stop</button>                
+                <button class = "button"; id = "button-lap"; title="Lap (record the current stopwatch time)">Lap</button>
+                <button class = "button"; id = "button-clearlaps"; title = "Clear Laps (remove all previously-recorded laps)">Clear Laps</button>
+            </div>
+            
+            
+        <!THE LAPS>
+            <div class ="lapsSection"; title = "Lap Times (all previously-recorded laps, recorded using the Lap button)">
+                <p class = "lapsTitle"; id="lapsTitle">Lap Times</p>
+                <ul class = "laps"; id="laps"; align = "center"></ul>
+            </div>
+            
+        </body>
+</html>
+    
